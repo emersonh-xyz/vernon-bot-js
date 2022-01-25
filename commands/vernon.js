@@ -5,7 +5,7 @@ module.exports = {
   description: 'Replies with a picture of vernon', // Required for slash commands
 
   slash: false, // Create both a slash and legacy command
-  testOnly: true, // Only register a slash command for the testing guilds
+  testOnly: false, // Only register a slash command for the testing guilds
 
   callback: ({ message, text, }) => {
 
