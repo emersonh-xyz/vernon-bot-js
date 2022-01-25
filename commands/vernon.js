@@ -64,7 +64,7 @@ module.exports = {
 
       // Find the picture associated with the number
       var commonNum = 0;
-      for(let i = 0; i < picture.length; i++)
+      for(let i = 0; i < common.length; i++)
       {
         if (commonFinal === common[i])
         {
@@ -73,7 +73,7 @@ module.exports = {
       }
       
       var rareNum = 0;
-      for(let i = 0; i < picture.length; i++)
+      for(let i = 0; i < rare.length; i++)
       {
         if (rareFinal === rare[i])
         {
@@ -87,31 +87,35 @@ module.exports = {
       {
         var isRare = true
       } else {
-        var isRale = false
+        var isRare = false
       }
 
-
-      if (isRare){
-        const embed = new MessageEmbed()
+      // Rare embed
+      var rareEmbed = new MessageEmbed()
           .setAuthor({ name: "Card: #" + rareNum, url: rareFinal })
-          .setDescription("You got a rare!")
+          .setDescription("╰☆☆ You got a rare!")
           .setImage(rareFinal)
           .setColor("YELLOW")
           .setFooter(`Requested by ${user.tag}` )
 
-        return embed
-      } else {
-        const embed = new MessageEmbed()
+
+      var commonEmbed = new MessageEmbed()
           .setAuthor({ name: "Card: #" + commonNum, url: commonFinal })
-          .setDescription("You got a rare!")
+          .setDescription("╰☆ You got a common!")
           .setImage(commonFinal)
-          .setColor("YELLOW")
+          .setColor("WHITE")
           .setFooter(`Requested by ${user.tag}` )
+
+
+      if (isRare){
+        
+
+        return rareEmbed
+      } else if (!isRare)
+      {
+        return commonEmbed
       }
     
-
-
-      return embed
   
     },
   }
