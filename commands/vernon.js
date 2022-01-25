@@ -56,6 +56,7 @@ module.exports = {
       "https://data.whicdn.com/images/212481478/original.gif",
       "https://c.tenor.com/rUORWQvKeyAAAAAC/seventeen-vernon.gif",
       "https://c.tenor.com/eUZ_ZUMjBqAAAAAC/seventeen-vernon.gif",
+      "https://c.tenor.com/eUZ_ZUMjBqAAAAAC/seventeen-vernon.gif",
     ]
 
     var commonFinal = common[Math.floor(Math.random() * common.length)]; // pick a random
