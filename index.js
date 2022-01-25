@@ -27,7 +27,7 @@ client.on('ready', () => {
     botOwners: ["117506271715917829", "192365711954411520"]
   })
 
-  client.user.setActivity('!vernon', 
+  client.user.setActivity(`!vernon | ${client.guilds.cache.size} servers`, 
   { 
     type: 'STREAMING',
     url: "https://www.twitch.tv/omegattv_"
