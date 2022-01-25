@@ -1,17 +1,17 @@
 const { MessageEmbed } = require('discord.js');
 
 module.exports = {
-    category: 'Fun',
-    description: 'Replies with a picture of vernon', // Required for slash commands
-    
-    slash: false, // Create both a slash and legacy command
-    testOnly: true, // Only register a slash command for the testing guilds
-    
-    callback: ({ message, text,}) => {
+  category: 'Fun',
+  description: 'Replies with a picture of vernon', // Required for slash commands
 
-      const user = message.author
+  slash: false, // Create both a slash and legacy command
+  testOnly: true, // Only register a slash command for the testing guilds
 
-      var common = [
+  callback: ({ message, text, }) => {
+
+    const user = message.author
+
+    var common = [
       "https://en.kepoper.com/wp-content/uploads/2021/03/vernon-profile-1-758x506.jpg",
       "https://lh3.googleusercontent.com/byU3bSUcfvfKCiIMK5eQa4O9D6UkytoLwvZJhTDA083XitflW0VE9u7doyiomx2njx5En-y2qgQ1aDGlBOrKlcvi6zvke-DH=w1200-h630-rj-pp-e365",
       "https://www.somagnews.com/wp-content/uploads/2021/09/SEVENTEEN-Vernon.jpg",
@@ -35,87 +35,81 @@ module.exports = {
 
     ]
 
-      var rare = [
-        "https://c.tenor.com/JlzupGVQcEMAAAAM/vernon-seventeen.gif",
-        "https://c.tenor.com/E-LhmHdX44UAAAAC/vernon-seventeen.gif",
-        "https://c.tenor.com/c80ShYtAeXwAAAAd/vernon-seventeen.gif",
-        "https://c.tenor.com/ATpYETqrSQQAAAAM/hansol-vernon.gif",
-        "https://c.tenor.com/nxuRU4bmxwEAAAAd/seventeen-vernon.gif",
-        "http://pa1.narvii.com/6360/09027497428e357986e61fcae538334ef1c35edf_00.gif",
-        "https://c.tenor.com/mr__XxwLqboAAAAC/vernon.gif",
-        "https://i.pinimg.com/originals/00/a3/78/00a378feee74b3d800d3b822b474c39c.gif",
-        "https://data.whicdn.com/images/309592152/original.gif",
-        "https://pa1.narvii.com/6777/b459c8e65643d144a4535be5be27d996f2817048_hq.gif",
-        "https://thumbs.gfycat.com/ConcernedFeistyBunting-size_restricted.gif",
-        "https://c.tenor.com/i8IEksk6wUYAAAAC/vernon-seventeen.gif",
-        "https://64.media.tumblr.com/c1060ec4ed074323b34c8baa8742b665/tumblr_inline_o2nmmjXVhw1sccn28_400.gifv",
-        "https://thumbs.gfycat.com/JovialPowerlessAfricangoldencat-size_restricted.gif",
-        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSfRwGaWHR4aMQQonm8ksLrMo5332c-X05HLg&usqp=CAU",
-        "https://64.media.tumblr.com/41b99436c6d39f96ebf02f6929a569ea/tumblr_olirulYx0F1sgray0o1_500.gifv",
-        "https://64.media.tumblr.com/7419aac82d5f7a37329894b012c03317/tumblr_og8yehUlJ01uaqa61o1_500.gifv",
-        "https://data.whicdn.com/images/212481478/original.gif",
-        "https://c.tenor.com/rUORWQvKeyAAAAAC/seventeen-vernon.gif",
-        "https://c.tenor.com/eUZ_ZUMjBqAAAAAC/seventeen-vernon.gif",
-      ]
-      
-      var commonFinal = common[Math.floor(Math.random() * common.length)]; // pick a random
-      var rareFinal = rare[Math.floor(Math.random() * rare.length)]; // pick a random
+    var rare = [
+      "https://c.tenor.com/JlzupGVQcEMAAAAM/vernon-seventeen.gif",
+      "https://c.tenor.com/E-LhmHdX44UAAAAC/vernon-seventeen.gif",
+      "https://c.tenor.com/c80ShYtAeXwAAAAd/vernon-seventeen.gif",
+      "https://c.tenor.com/ATpYETqrSQQAAAAM/hansol-vernon.gif",
+      "https://c.tenor.com/nxuRU4bmxwEAAAAd/seventeen-vernon.gif",
+      "http://pa1.narvii.com/6360/09027497428e357986e61fcae538334ef1c35edf_00.gif",
+      "https://c.tenor.com/mr__XxwLqboAAAAC/vernon.gif",
+      "https://i.pinimg.com/originals/00/a3/78/00a378feee74b3d800d3b822b474c39c.gif",
+      "https://data.whicdn.com/images/309592152/original.gif",
+      "https://pa1.narvii.com/6777/b459c8e65643d144a4535be5be27d996f2817048_hq.gif",
+      "https://thumbs.gfycat.com/ConcernedFeistyBunting-size_restricted.gif",
+      "https://c.tenor.com/i8IEksk6wUYAAAAC/vernon-seventeen.gif",
+      "https://64.media.tumblr.com/c1060ec4ed074323b34c8baa8742b665/tumblr_inline_o2nmmjXVhw1sccn28_400.gifv",
+      "https://thumbs.gfycat.com/JovialPowerlessAfricangoldencat-size_restricted.gif",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSfRwGaWHR4aMQQonm8ksLrMo5332c-X05HLg&usqp=CAU",
+      "https://64.media.tumblr.com/41b99436c6d39f96ebf02f6929a569ea/tumblr_olirulYx0F1sgray0o1_500.gifv",
+      "https://64.media.tumblr.com/7419aac82d5f7a37329894b012c03317/tumblr_og8yehUlJ01uaqa61o1_500.gifv",
+      "https://data.whicdn.com/images/212481478/original.gif",
+      "https://c.tenor.com/rUORWQvKeyAAAAAC/seventeen-vernon.gif",
+      "https://c.tenor.com/eUZ_ZUMjBqAAAAAC/seventeen-vernon.gif",
+    ]
+
+    var commonFinal = common[Math.floor(Math.random() * common.length)]; // pick a random
+    var rareFinal = rare[Math.floor(Math.random() * rare.length)]; // pick a random
 
 
-      // Find the picture associated with the number
-      var commonNum = 0;
-      for(let i = 0; i < common.length; i++)
-      {
-        if (commonFinal === common[i])
-        {
-            commonNum = i + 1;
-        }
+    // Find the picture associated with the number
+    var commonNum = 0;
+    for (let i = 0; i < common.length; i++) {
+      if (commonFinal === common[i]) {
+        commonNum = i + 1;
       }
-      
-      var rareNum = 0;
-      for(let i = 0; i < rare.length; i++)
-      {
-        if (rareFinal === rare[i])
-        {
-            rareNum = i + 1;
-        }
+    }
+
+    var rareNum = 0;
+    for (let i = 0; i < rare.length; i++) {
+      if (rareFinal === rare[i]) {
+        rareNum = i + 1;
       }
-      
-      pick = Math.random()
-    
-      if (pick >= .7)
-      {
-        var isRare = true
-      } else {
-        var isRare = false
-      }
+    }
 
-      // Rare embed
-      var rareEmbed = new MessageEmbed()
-          .setAuthor({ name: "Card: #" + rareNum, url: rareFinal })
-          .setDescription("╰☆☆ You got a rare!")
-          .setImage(rareFinal)
-          .setColor("YELLOW")
-          .setFooter(`Requested by ${user.tag}` )
+    pick = Math.random()
 
+    if (pick >= .7) {
+      var isRare = true
+    } else {
+      var isRare = false
+    }
 
-      var commonEmbed = new MessageEmbed()
-          .setAuthor({ name: "Card: #" + commonNum, url: commonFinal })
-          .setDescription("╰☆ You got a common!")
-          .setImage(commonFinal)
-          .setColor("WHITE")
-          .setFooter(`Requested by ${user.tag}` )
+    // Rare embed
+    var rareEmbed = new MessageEmbed()
+      .setAuthor({ name: "Card: #" + rareNum, url: rareFinal })
+      .setDescription("╰☆☆ You got a rare!")
+      .setImage(rareFinal)
+      .setColor("YELLOW")
+      .setFooter(`Requested by ${user.tag}`)
 
 
-      if (isRare){
-        
+    var commonEmbed = new MessageEmbed()
+      .setAuthor({ name: "Card: #" + commonNum, url: commonFinal })
+      .setDescription("╰☆ You got a common!")
+      .setImage(commonFinal)
+      .setColor("WHITE")
+      .setFooter(`Requested by ${user.tag}`)
 
-        return rareEmbed
-      } else if (!isRare)
-      {
-        return commonEmbed
-      }
-    
-  
-    },
-  }
+
+    if (isRare) {
+
+
+      return rareEmbed
+    } else if (!isRare) {
+      return commonEmbed
+    }
+
+
+  },
+}
