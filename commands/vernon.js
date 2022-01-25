@@ -47,7 +47,8 @@ module.exports = {
       "https://thumbs.gfycat.com/ConcernedFeistyBunting-size_restricted.gif",
       "https://c.tenor.com/i8IEksk6wUYAAAAC/vernon-seventeen.gif",
       "https://64.media.tumblr.com/c1060ec4ed074323b34c8baa8742b665/tumblr_inline_o2nmmjXVhw1sccn28_400.gifv",
-      "https://thumbs.gfycat.com/JovialPowerlessAfricangoldencat-size_restricted.gif"
+      "https://thumbs.gfycat.com/JovialPowerlessAfricangoldencat-size_restricted.gif",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSfRwGaWHR4aMQQonm8ksLrMo5332c-X05HLg&usqp=CAU"
 
 
     ]
