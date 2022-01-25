@@ -26,6 +26,12 @@ client.on('ready', () => {
     testServers: ["770727600322248726", "752704745700982876" ],
     botOwners: ["117506271715917829", "192365711954411520"]
   })
+
+  client.user.setActivity('!vernon', 
+  { 
+    type: 'STREAMING',
+    url: "https://www.twitch.tv/omegattv_"
+ });
 })
 
 client.login(process.env.TOKEN)
