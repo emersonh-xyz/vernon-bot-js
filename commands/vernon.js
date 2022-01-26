@@ -11,7 +11,7 @@ module.exports = {
 
     const user = message.author
 
-    var common = [
+    var commonList = [
       "https://en.kepoper.com/wp-content/uploads/2021/03/vernon-profile-1-758x506.jpg",
       "https://lh3.googleusercontent.com/byU3bSUcfvfKCiIMK5eQa4O9D6UkytoLwvZJhTDA083XitflW0VE9u7doyiomx2njx5En-y2qgQ1aDGlBOrKlcvi6zvke-DH=w1200-h630-rj-pp-e365",
       "https://www.somagnews.com/wp-content/uploads/2021/09/SEVENTEEN-Vernon.jpg",
@@ -35,7 +35,7 @@ module.exports = {
 
     ]
 
-    var rare = [
+    var rareList = [
       "https://c.tenor.com/JlzupGVQcEMAAAAM/vernon-seventeen.gif",
       "https://c.tenor.com/E-LhmHdX44UAAAAC/vernon-seventeen.gif",
       "https://c.tenor.com/c80ShYtAeXwAAAAd/vernon-seventeen.gif",
@@ -59,21 +59,21 @@ module.exports = {
       "https://c.tenor.com/eUZ_ZUMjBqAAAAAC/seventeen-vernon.gif",
     ]
 
-    var commonFinal = common[Math.floor(Math.random() * common.length)]; // pick a random
-    var rareFinal = rare[Math.floor(Math.random() * rare.length)]; // pick a random
+    var commonFinal = commonList[Math.floor(Math.random() * commonList.length)]; // pick a random
+    var rareFinal = rareList[Math.floor(Math.random() * rareList.length)]; // pick a random
 
 
     // Find the picture associated with the number
     var commonNum = 0;
-    for (let i = 0; i < common.length; i++) {
-      if (commonFinal === common[i]) {
+    for (let i = 0; i < commonList.length; i++) {
+      if (commonFinal === commonList[i]) {
         commonNum = i + 1;
       }
     }
 
     var rareNum = 0;
-    for (let i = 0; i < rare.length; i++) {
-      if (rareFinal === rare[i]) {
+    for (let i = 0; i < rareList.length; i++) {
+      if (rareFinal === rareList[i]) {
         rareNum = i + 1;
       }
     }
@@ -84,11 +84,13 @@ module.exports = {
     var isCommon = false
     var isNothing = false
 
+
+
     if (pick > .9) {
       isRare = true
       console.log(`pick: ${pick} you got rare`)
     } 
-    else if (pick <= .2)
+    else if (pick <= .1)
     {
       isNothing = true
       console.log(`pick: ${pick} you got nothing`)
@@ -110,21 +112,13 @@ module.exports = {
       .setColor("YELLOW")
       .setFooter(`Requested by ${user.tag}`)
 
-
+    // Common embed
     var commonEmbed = new MessageEmbed()
       .setAuthor({ name: "Card: #" + commonNum, url: commonFinal })
       .setDescription("╰☆ You got a common!")
       .setImage(commonFinal)
       .setColor("WHITE")
       .setFooter(`Requested by ${user.tag}`)
-
-    var nothingEmbed = new MessageEmbed()
-      .setAuthor({ name: "How unfortunate"})
-      .setDescription("╰☆ You got absolutely nothing!")
-      .setImage("https://www.iconpacks.net/icons/2/free-sad-face-icon-2691-thumb.png")
-      .setColor("RED")
-      .setFooter(`Requested by ${user.tag}`)  
-
 
 
 
@@ -133,10 +127,7 @@ module.exports = {
     } else if (isCommon)
     {
       return commonEmbed
-    } else if (isNothing)
-    {
-      return nothingEmbed
-    }
+    } 
 
 
   },
