@@ -95,7 +95,7 @@ module.exports = {
     }  
     else if (pick <= .9)
     {
-      isCommon = false
+      isCommon = true
       console.log(`pick: ${pick} you got common`)
     } 
 
