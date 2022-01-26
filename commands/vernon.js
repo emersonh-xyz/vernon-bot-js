@@ -80,11 +80,27 @@ module.exports = {
 
     pick = Math.random()
 
-    if (pick >= .7) {
-      var isRare = true
-    } else {
-      var isRare = false
-    }
+    var isRare = false
+    var isCommon = false
+    var isNothing = false
+
+    if (pick > .9) {
+      isRare = true
+      console.log(`pick: ${pick} you got rare`)
+    } 
+    else if (pick <= .2)
+    {
+      isNothing = true
+      console.log(`pick: ${pick} you got nothing`)
+    }  
+    else if (pick <= .9)
+    {
+      isCommon = false
+      console.log(`pick: ${pick} you got common`)
+    } 
+
+   
+
 
     // Rare embed
     var rareEmbed = new MessageEmbed()
@@ -102,13 +118,24 @@ module.exports = {
       .setColor("WHITE")
       .setFooter(`Requested by ${user.tag}`)
 
+    var nothingEmbed = new MessageEmbed()
+      .setAuthor({ name: "How unfortunate"})
+      .setDescription("╰☆ You got absolutely nothing!")
+      .setImage("https://www.iconpacks.net/icons/2/free-sad-face-icon-2691-thumb.png")
+      .setColor("RED")
+      .setFooter(`Requested by ${user.tag}`)  
+
+
+
 
     if (isRare) {
-
-
       return rareEmbed
-    } else if (!isRare) {
+    } else if (isCommon)
+    {
       return commonEmbed
+    } else if (isNothing)
+    {
+      return nothingEmbed
     }
 
 
