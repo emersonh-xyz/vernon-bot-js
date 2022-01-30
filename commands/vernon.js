@@ -41,6 +41,7 @@ module.exports = {
 
     // DEBUG INFORMATION
     console.log(`DEBUG: \n${user.tag} just unboxed:
+
     ${rarity} ${list[num].era} ${list[num].version} ${list[num].title}
     ${list[num].link}`)
 
@@ -49,7 +50,7 @@ module.exports = {
       .setAuthor({ name: `${user.username} Just unboxed: `, iconURL: user.avatarURL(), url: list[num].link })
       .setTitle(` ** ${rarity} ${list[num].era} ${list[num].version} ${list[num].title}** `)
       .setThumbnail(list[num].thumb)
-      .setURL(list[num].link)
+      
       .setDescription(`**╰☆** You own **0**/${list[num].collection} from this set`)
 
 
