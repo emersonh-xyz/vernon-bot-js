@@ -270,7 +270,7 @@ let v_list = [
     {
         link: "https://vernonbot.xyz/vernon-img/21.jpeg",
         thumb: "https://vernonbot.xyz/vernon-img/thumbnail/attacca.jpeg",
-        version: "Other Side",
+        version: "Beside",
         worth: 100,
         era: "🗡 Attacca",
         quality: "Common",
@@ -282,10 +282,10 @@ let v_list = [
     {
         link: "https://vernonbot.xyz/vernon-img/22.jpeg",
         thumb: "https://vernonbot.xyz/vernon-img/thumbnail/attacca.jpeg",
-        version: "Beside",
-        worth: 100,
+        version: "Yizhiyu A",
+        worth: 500,
         era: "🗡 Attacca",
-        quality: "Common",
+        quality: "Epic",
         title: "Vernon",
         collection: 23,
         id: pad(count())
@@ -294,7 +294,7 @@ let v_list = [
     {
         link: "https://vernonbot.xyz/vernon-img/23.jpeg",
         thumb: "https://vernonbot.xyz/vernon-img/thumbnail/attacca.jpeg",
-        version: "Yizhiyu A",
+        version: "Yizhiyu B",
         worth: 500,
         era: "🗡 Attacca",
         quality: "Epic",
@@ -306,10 +306,10 @@ let v_list = [
     {
         link: "https://vernonbot.xyz/vernon-img/24.jpeg",
         thumb: "https://vernonbot.xyz/vernon-img/thumbnail/attacca.jpeg",
-        version: "Yizhiyu B",
-        worth: 500,
+        version: "Op 3",
+        worth: 100,
         era: "🗡 Attacca",
-        quality: "Epic",
+        quality: "Common",
         title: "Vernon",
         collection: 23,
         id: pad(count())
@@ -330,18 +330,6 @@ let v_list = [
     {
         link: "https://vernonbot.xyz/vernon-img/26.jpeg",
         thumb: "https://vernonbot.xyz/vernon-img/thumbnail/attacca.jpeg",
-        version: "Op 3",
-        worth: 100,
-        era: "🗡 Attacca",
-        quality: "Common",
-        title: "Vernon",
-        collection: 23,
-        id: pad(count())
-
-    },
-    {
-        link: "https://vernonbot.xyz/vernon-img/27.jpeg",
-        thumb: "https://vernonbot.xyz/vernon-img/thumbnail/attacca.jpeg",
         version: "Carat 02",
         worth: 250,
         era: "🗡 Attacca",
@@ -352,7 +340,7 @@ let v_list = [
 
     },
     {
-        link: "https://vernonbot.xyz/vernon-img/28.jpeg",
+        link: "https://vernonbot.xyz/vernon-img/27.jpeg",
         thumb: "https://vernonbot.xyz/vernon-img/thumbnail/attacca.jpeg",
         version: "Carat 03",
         worth: 250,
@@ -364,7 +352,7 @@ let v_list = [
 
     },
     {
-        link: "https://vernonbot.xyz/vernon-img/29.jpeg",
+        link: "https://vernonbot.xyz/vernon-img/28.jpeg",
         thumb: "https://vernonbot.xyz/vernon-img/thumbnail/attacca.jpeg",
         version: "Carat 04",
         worth: 250,
@@ -376,7 +364,7 @@ let v_list = [
 
     },
     {
-        link: "https://vernonbot.xyz/vernon-img/30.jpeg",
+        link: "https://vernonbot.xyz/vernon-img/29.jpeg",
         thumb: "https://vernonbot.xyz/vernon-img/thumbnail/attacca.jpeg",
         version: "Carat 01",
         worth: 250,
@@ -388,7 +376,7 @@ let v_list = [
 
     },
     {
-        link: "https://vernonbot.xyz/vernon-img/31.jpeg",
+        link: "https://vernonbot.xyz/vernon-img/30.jpeg",
         thumb: "https://vernonbot.xyz/vernon-img/thumbnail/attacca.jpeg",
         version: "Carat Photo 01",
         worth: 500,
@@ -400,7 +388,7 @@ let v_list = [
 
     },
     {
-        link: "https://vernonbot.xyz/vernon-img/32.jpeg",
+        link: "https://vernonbot.xyz/vernon-img/31.jpeg",
         thumb: "https://vernonbot.xyz/vernon-img/thumbnail/attacca.jpeg",
         version: "Carat Photo 02",
         worth: 500,
@@ -412,7 +400,7 @@ let v_list = [
 
     },
     {
-        link: "https://vernonbot.xyz/vernon-img/33.jpeg",
+        link: "https://vernonbot.xyz/vernon-img/32.jpeg",
         thumb: "https://vernonbot.xyz/vernon-img/thumbnail/attacca.jpeg",
         version: "Carat Photo 03",
         worth: 500,
@@ -424,7 +412,7 @@ let v_list = [
 
     },
     {
-        link: "https://vernonbot.xyz/vernon-img/34.jpeg",
+        link: "https://vernonbot.xyz/vernon-img/33.jpeg",
         thumb: "https://vernonbot.xyz/vernon-img/thumbnail/attacca.jpeg",
         version: "Carat Photo 05",
         worth: 500,
@@ -436,7 +424,7 @@ let v_list = [
 
     },
     {
-        link: "https://vernonbot.xyz/vernon-img/35.jpeg",
+        link: "https://vernonbot.xyz/vernon-img/34.jpeg",
         thumb: "https://vernonbot.xyz/vernon-img/thumbnail/attacca.jpeg",
         version: "Carat Photo 06",
         worth: 500,
@@ -448,7 +436,7 @@ let v_list = [
 
     },
     {
-        link: "https://vernonbot.xyz/vernon-img/36.jpeg",
+        link: "https://vernonbot.xyz/vernon-img/35.jpeg",
         thumb: "https://vernonbot.xyz/vernon-img/thumbnail/attacca.jpeg",
         version: "Carat Photo 07",
         worth: 500,
@@ -460,7 +448,7 @@ let v_list = [
 
     },
     {
-        link: "https://vernonbot.xyz/vernon-img/37.jpeg",
+        link: "https://vernonbot.xyz/vernon-img/36.jpeg",
         thumb: "https://vernonbot.xyz/vernon-img/thumbnail/attacca.jpeg",
         version: "Op 1 - 01",
         worth: 100,
@@ -472,7 +460,7 @@ let v_list = [
 
     },
     {
-        link: "https://vernonbot.xyz/vernon-img/38.jpeg",
+        link: "https://vernonbot.xyz/vernon-img/37.jpeg",
         thumb: "https://vernonbot.xyz/vernon-img/thumbnail/attacca.jpeg",
         version: "Op 1 - 02",
         worth: 100,
@@ -483,7 +471,7 @@ let v_list = [
         id: pad(count())
     },
     {
-        link: "https://vernonbot.xyz/vernon-img/39.jpeg",
+        link: "https://vernonbot.xyz/vernon-img/38.jpeg",
         thumb: "https://vernonbot.xyz/vernon-img/thumbnail/attacca.jpeg",
         version: "Op 2 - 01",
         worth: 100,
@@ -495,21 +483,9 @@ let v_list = [
 
     },
     {
-        link: "https://vernonbot.xyz/vernon-img/40.jpeg",
+        link: "https://vernonbot.xyz/vernon-img/39.jpeg",
         thumb: "https://vernonbot.xyz/vernon-img/thumbnail/attacca.jpeg",
         version: "Op 2 - 02",
-        worth: 100,
-        era: "🗡 Attacca",
-        quality: "Common",
-        title: "Vernon",
-        collection: 23,
-        id: pad(count())
-
-    },
-    {
-        link: "https://vernonbot.xyz/vernon-img/39.jpeg",
-        thumb: "https://vernonbot.xyz/vernon-img/thumbnail/attacca.jpeg",
-        version: "Op 2 - 01",
         worth: 100,
         era: "🗡 Attacca",
         quality: "Common",
