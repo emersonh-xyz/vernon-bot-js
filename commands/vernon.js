@@ -12,15 +12,17 @@ module.exports = {
   callback: ({ message, text, client, }) => {
 
     const user = message.author
-    const list = v_list
+
+    let list = v_list;
+    let num = Math.floor(Math.random()*v_list.length)
     
 
 
     let commonEmbed = new MessageEmbed()
-      .setAuthor({ name: `${user.username} Just unboxed: `, iconURL: user.avatarURL(), url: list[0].link })
-      .setTitle(` **${list[0].title}** `)
-      .setThumbnail(list[0].thumb)
-      .setURL(list[0].link)
+      .setAuthor({ name: `${user.username} Just unboxed: `, iconURL: user.avatarURL(), url: list[num].link })
+      .setTitle(` **${list[num].title}** `)
+      .setThumbnail(list[num].thumb)
+      .setURL(list[num].link)
 
 
       .addFields(
@@ -30,17 +32,17 @@ module.exports = {
 
       )
       .addFields(
-          { name: 'Quality: ', value: "`" + list[0].quality + "`", inline: true },
-          { name: 'Era: ', value: "`" + list[0].era + "`" , inline: true},
-          { name: 'Version: ', value: "`" + list[0].version + "`" , inline: true},    
+          { name: 'Quality: ', value: "`" + list[num].quality + "`", inline: true },
+          { name: 'Era: ', value: "`" + list[num].era + "`" , inline: true},
+          { name: 'Version: ', value: "`" + list[num].version + "`" , inline: true},    
       )
 
 
     
-      .setImage(list[0].link)
+      .setImage(list[num].link)
       .setColor("#F7CAC9")
       .setTimestamp()
-	    .setFooter({ text: 'https://vernonbot.xyz', iconURL: client.user.avatarURL(), url: list[0].link });
+	    .setFooter({ text: 'https://vernonbot.xyz', iconURL: client.user.avatarURL(), url: list[num].link });
 
 
 
