@@ -13,6 +13,7 @@ module.exports = {
 
     const user = message.author
 
+    
     let list = v_list;
     let num = Math.floor(Math.random() * v_list.length)
 
@@ -33,10 +34,11 @@ module.exports = {
       embedColor = "WHITE"
     }
 
+    // DEBUG INFORMATION
     console.log(`DEBUG: \n${user.tag} just unboxed:
-    \nembed color set as ${embedColor}
-    \n${list[num].title} 
-    \n${list[num].link}`)
+    embed color set as ${embedColor}
+    ${list[num].title} 
+    ${list[num].link}`)
 
 
     let commonEmbed = new MessageEmbed()
