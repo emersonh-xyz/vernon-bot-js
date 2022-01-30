@@ -17,6 +17,8 @@ module.exports = {
     let num = Math.floor(Math.random()*v_list.length)
     
 
+    let epicColor = "#F7CAC9"
+    let rareColor = ""
 
     let commonEmbed = new MessageEmbed()
       .setAuthor({ name: `${user.username} Just unboxed: `, iconURL: user.avatarURL(), url: list[num].link })
@@ -26,8 +28,8 @@ module.exports = {
 
 
       .addFields(
-        { name: "ID: ", value: "`" + list[0].id + "`" , inline: true },
-        { name: "Worth: ", value: "`" + list[0].worth + "🥕`", inline: false }
+        { name: "ID: ", value: "`" + list[num].id + "`" , inline: true },
+        { name: "Worth: ", value: "`" + list[num].worth + "🥕`", inline: false }
       
 
       )
