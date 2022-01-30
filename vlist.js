@@ -116,7 +116,7 @@ let v_list = [
         era: "An Ode",
         quality: "Common",
         title: "Vernon",
-        collection: 2,
+        collection: 12,
         id: pad(count())
 
     },
@@ -128,7 +128,7 @@ let v_list = [
         era: "An Ode",
         quality: "Common",
         title: "Vernon",
-        collection: 2,
+        collection: 12,
         id: pad(count())
 
     },
@@ -140,7 +140,7 @@ let v_list = [
         era: "An Ode",
         quality: "Common",
         title: "Vernon",
-        collection: 2,
+        collection: 12,
         id: pad(count())
 
     },
@@ -152,12 +152,106 @@ let v_list = [
         era: "An Ode",
         quality: "Common",
         title: "Vernon",
-        collection: 2,
+        collection: 12,
         id: pad(count())
 
     },
-    
-    
+    {
+        link: "http://vernonbot.xyz/vernon-img/11.jpeg",
+        thumb: "https://vernonbot.xyz/vernon-img/thumbnail/anode.jpeg",
+        version: "Truth - Color 01",
+        worth: 100,
+        era: "An Ode",
+        quality: "Common",
+        title: "Vernon",
+        collection: 12,
+        id: pad(count())
+
+    },
+    {
+        link: "http://vernonbot.xyz/vernon-img/12.jpeg",
+        thumb: "https://vernonbot.xyz/vernon-img/thumbnail/anode.jpeg",
+        version: "Real - Color 01",
+        worth: 100,
+        era: "An Ode",
+        quality: "Common",
+        title: "Vernon",
+        collection: 12,
+        id: pad(count())
+
+    },
+    {
+        link: "http://vernonbot.xyz/vernon-img/13.jpeg",
+        thumb: "https://vernonbot.xyz/vernon-img/thumbnail/anode.jpeg",
+        version: "Begin - White 01",
+        worth: 100,
+        era: "An Ode",
+        quality: "Common",
+        title: "Vernon",
+        collection: 12,
+        id: pad(count())
+
+    },
+    {
+        link: "http://vernonbot.xyz/vernon-img/14.jpeg",
+        thumb: "https://vernonbot.xyz/vernon-img/thumbnail/anode.jpeg",
+        version: "The Poet - White 02",
+        worth: 100,
+        era: "An Ode",
+        quality: "Common",
+        title: "Vernon",
+        collection: 12,
+        id: pad(count())
+
+    },
+    {
+        link: "http://vernonbot.xyz/vernon-img/15.jpeg",
+        thumb: "https://vernonbot.xyz/vernon-img/thumbnail/anode.jpeg",
+        version: "The Poet - Color 01",
+        worth: 100,
+        era: "An Ode",
+        quality: "Common",
+        title: "Vernon",
+        collection: 12,
+        id: pad(count())
+
+    },
+    {
+        link: "http://vernonbot.xyz/vernon-img/16.jpeg",
+        thumb: "https://vernonbot.xyz/vernon-img/thumbnail/anode.jpeg",
+        version: "Real - White 01",
+        worth: 100,
+        era: "An Ode",
+        quality: "Common",
+        title: "Vernon",
+        collection: 12,
+        id: pad(count())
+
+    },
+    {
+        link: "http://vernonbot.xyz/vernon-img/17.jpeg",
+        thumb: "https://vernonbot.xyz/vernon-img/thumbnail/anode.jpeg",
+        version: "Truth - Color 02",
+        worth: 100,
+        era: "An Ode",
+        quality: "Common",
+        title: "Vernon",
+        collection: 12,
+        id: pad(count())
+
+    },
+    {
+        link: "http://vernonbot.xyz/vernon-img/18.jpeg",
+        thumb: "https://vernonbot.xyz/vernon-img/thumbnail/anode.jpeg",
+        version: "Hope - White 02",
+        worth: 100,
+        era: "An Ode",
+        quality: "Common",
+        title: "Vernon",
+        collection: 12,
+        id: pad(count())
+
+    },
     
 ];
 
