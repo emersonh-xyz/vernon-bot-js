@@ -26,6 +26,7 @@ let v_list = [
         era: "24H", 
         quality: "Epic", 
         title: `[⭐️⭐️⭐️] 24H Carat Vernon`, 
+        collection: 1,
         id: pad(count()) 
     },
     { 
@@ -36,6 +37,7 @@ let v_list = [
         era: "Ainochikara", 
         quality: "Rare", 
         title: `[⭐️⭐️] Ainochikara Weverse Vernon`, 
+        collection: 3,
         id: pad(count()) 
     },
     {   
@@ -46,6 +48,7 @@ let v_list = [
         era: "Ainochikara", 
         quality: "Epic", 
         title: `[⭐️⭐️⭐️] Ainochikara Christmas Vernon`, 
+        collection: 3,
         id: pad(count()) 
     },
     {
@@ -56,34 +59,37 @@ let v_list = [
         era: "Ainochikara",
         quality: "Rare",
         title: "[⭐️⭐️] Ainochikara Universal Vernon",
+        collection: 3,
         id: pad(count())
 
     },
     {
         link: "http://vernonbot.xyz/vernon-img/4.jpeg",
-        thumb: "https://vernonbot.xyz/vernon-img/thumbnail/alone.jpeg",
+        thumb: "https://vernonbot.xyz/vernon-img/thumbnail/alone.jpg",
         version: "Alone 01",
         worth: 250,
         era: "AL1",
         quality: "Rare",
         title: "[⭐️⭐️] AL1 Alone 01 Vernon",
+        collection: 2,
         id: pad(count())
 
     },
     {
         link: "http://vernonbot.xyz/vernon-img/5.jpeg",
-        thumb: "https://vernonbot.xyz/vernon-img/thumbnail/alone.jpeg",
+        thumb: "https://vernonbot.xyz/vernon-img/thumbnail/alone.jpg",
         version: "All 03",
         worth: 250,
         era: "AL1",
         quality: "Rare",
         title: "[⭐️⭐️] AL1 All 03 Vernon",
+        collection: 2,
         id: pad(count())
 
     },
     {
         link: "http://vernonbot.xyz/vernon-img/6.jpeg",
-        thumb: "https://vernonbot.xyz/vernon-img/thumbnail/alone.jpeg",
+        thumb: "https://vernonbot.xyz/vernon-img/thumbnail/anode.jpeg",
         version: "Truth - White 01",
         worth: 100,
         era: "An Ode",

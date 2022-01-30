@@ -13,7 +13,7 @@ module.exports = {
 
     const user = message.author
 
-    
+
     let list = v_list;
     let num = Math.floor(Math.random() * v_list.length)
 
@@ -46,6 +46,7 @@ module.exports = {
       .setTitle(` **${list[num].title}** `)
       .setThumbnail(list[num].thumb)
       .setURL(list[num].link)
+      .setDescription(`**╰☆** You own **0**/${list[num].collection} from this set`)
 
 
       .addFields(
@@ -59,6 +60,7 @@ module.exports = {
         { name: 'Era: ', value: "`" + list[num].era + "`", inline: true },
         { name: 'Version: ', value: "`" + list[num].version + "`", inline: true },
       )
+      
 
 
 
