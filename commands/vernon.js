@@ -41,8 +41,7 @@ module.exports = {
 
     // DEBUG INFORMATION
     console.log(`DEBUG: \n${user.tag} just unboxed:
-    embed color set as ${embedColor}
-    ${list[num].title} 
+    ${rarity} ${list[num].era} ${list[num].version} ${list[num].title}
     ${list[num].link}`)
 
 
