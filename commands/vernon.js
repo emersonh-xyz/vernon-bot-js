@@ -14,20 +14,39 @@ module.exports = {
 
 
     var commonEmbed = new MessageEmbed()
-      .setAuthor({ name: "Era: attacca", url: link })
-      .setDescription("╰☆ Rare Quality")
+      .setAuthor({ name: `${user.username} Just unboxed: `, iconURL: user.avatarURL(), url: link })
+      .setTitle("`[⭐️⭐️]` **Attacca Vernon**")
+      .setURL(link)
+
       .addFields(
-        { name: 'Era', value: "attacca" },
-        { name: 'Verion', value: 'carat 03' },
-        { name: 'Quality', value: 'Rare', inline: true },
+        { name: "ID: ", value: "`1101`", inline: true },
+        { name: "Worth: ", value: "`200 🥕`", inline: false }
+      
+
       )
+      .addFields(
+          { name: 'Quality: ', value: '`Rare`', inline: true },
+          { name: 'Era: ', value: "`Attacca`", inline: true},
+          { name: 'Version: ', value: '`Carat 03`', inline: true},    
+      )
+
+
+    
       .setImage(link)
-      .setColor("WHITE")
-      .setFooter(`Requested by ${user.tag}`)
+      .setColor("RED")
+      .setTimestamp()
+	    .setFooter({ text: 'Unboxed with `!vernon`', iconURL: link });
 
 
-    return commonEmbed;
 
+      message.channel.send(commonEmbed).then(async embedMessage => {
+        await embedMessage.react('👍');
+        await embedMessage.react('👎');
+    });
+
+
+
+    
 
   },
 }
