@@ -48,7 +48,7 @@ module.exports = {
 
     let commonEmbed = new MessageEmbed()
       .setAuthor({ name: `${user.username} Just unboxed: `, iconURL: user.avatarURL(), url: list[num].link })
-      .setTitle(` ** ${rarity} ${list[num].era} ${list[num].version} ${list[num].title}** `)
+      .setTitle(rarity + " **" + list[num].era + " " + list[num].version + "**" )
       .setThumbnail(list[num].thumb)
       
       .setDescription(`**╰☆** You own **0**/${list[num].collection} from this set`)
@@ -56,17 +56,14 @@ module.exports = {
 
       .addFields(
         { name: "ID: ", value: "`" + list[num].id + "`", inline: true },
-        { name: "Worth: ", value: "`" + list[num].worth + "🥕`", inline: false }
-
-
-      )
-      .addFields(
+        { name: "Title: ", value: "`" + list[num].title + "`", inline: true },
+        { name: "Worth: ", value: "`" + list[num].worth + " 🥕`", inline: true },
         { name: 'Quality: ', value: "`" + list[num].quality + "`", inline: true },
         { name: 'Era: ', value: "`" + list[num].era + "`", inline: true },
         { name: 'Version: ', value: "`" + list[num].version + "`", inline: true },
-      )
-      
 
+
+      )
 
 
       .setImage(list[num].link)
