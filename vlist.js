@@ -252,7 +252,42 @@ let v_list = [
         id: pad(count())
 
     },
-    
+    {
+        link: "https://vernonbot.xyz/vernon-img/19.jpeg",
+        thumb: "https://vernonbot.xyz/vernon-img/thumbnail/attacca.jpeg",
+        version: "One Side",
+        worth: 100,
+        era: "Attacca",
+        quality: "Common",
+        title: "Vernon",
+        collection: 1,
+        id: pad(count())
+
+    },
+    {
+        link: "https://vernonbot.xyz/vernon-img/20.jpeg",
+        thumb: "https://vernonbot.xyz/vernon-img/thumbnail/attacca.jpeg",
+        version: "Other Side",
+        worth: 100,
+        era: "Attacca",
+        quality: "Common",
+        title: "Vernon",
+        collection: 1,
+        id: pad(count())
+
+    },
+    {
+        link: "https://vernonbot.xyz/vernon-img/21.jpeg",
+        thumb: "https://vernonbot.xyz/vernon-img/thumbnail/attacca.jpeg",
+        version: "Other Side",
+        worth: 100,
+        era: "Attacca",
+        quality: "Common",
+        title: "Vernon",
+        collection: 1,
+        id: pad(count())
+
+    },
 ];
 
 exports.v_list = v_list;
