@@ -48,6 +48,51 @@ let v_list = [
         title: `[⭐️⭐️⭐️] Ainochikara Christmas Vernon`, 
         id: pad(count()) 
     },
+    {
+        link: "",
+        thumb: "",
+        version: "",
+        worth: 0,
+        era: "",
+        quality: "",
+        title: "",
+        id: pad(count())
+
+    },
+    {
+        link: "",
+        thumb: "",
+        version: "",
+        worth: 0,
+        era: "",
+        quality: "",
+        title: "",
+        id: pad(count())
+
+    },
+    {
+        link: "",
+        thumb: "",
+        version: "",
+        worth: 0,
+        era: "",
+        quality: "",
+        title: "",
+        id: pad(count())
+
+    },
+    {
+        link: "",
+        thumb: "",
+        version: "",
+        worth: 0,
+        era: "",
+        quality: "",
+        title: "",
+        id: pad(count())
+
+    },
+    
     
     
 ];

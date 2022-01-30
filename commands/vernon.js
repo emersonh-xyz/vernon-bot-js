@@ -1,5 +1,5 @@
 const { MessageEmbed } = require('discord.js');
-const { v_list } =  require("../vlist.js");
+const { v_list } = require("../vlist.js");
 
 
 module.exports = {
@@ -14,11 +14,30 @@ module.exports = {
     const user = message.author
 
     let list = v_list;
-    let num = Math.floor(Math.random()*v_list.length)
-    
+    let num = Math.floor(Math.random() * v_list.length)
+
 
     let epicColor = "#F7CAC9"
-    let rareColor = ""
+    let rareColor = "#92A8D1"
+    let commonColor = "WHITE"
+    let embedColor = ""
+
+    if (list[num].quality === "Rare") {
+      embedColor = rareColor
+    } else if (list[num].quality === "Epic") {
+      embedColor = epicColor
+    } else if (list[num].quality === "Common") {
+      embedColor = commonColor
+    } else
+    {
+      embedColor = "WHITE"
+    }
+
+    console.log(`DEBUG: \n${user.tag} just unboxed:
+    \nembed color set as ${embedColor}
+    \n${list[num].title} 
+    \n${list[num].link}`)
+
 
     let commonEmbed = new MessageEmbed()
       .setAuthor({ name: `${user.username} Just unboxed: `, iconURL: user.avatarURL(), url: list[num].link })
@@ -28,33 +47,33 @@ module.exports = {
 
 
       .addFields(
-        { name: "ID: ", value: "`" + list[num].id + "`" , inline: true },
+        { name: "ID: ", value: "`" + list[num].id + "`", inline: true },
         { name: "Worth: ", value: "`" + list[num].worth + "🥕`", inline: false }
-      
+
 
       )
       .addFields(
-          { name: 'Quality: ', value: "`" + list[num].quality + "`", inline: true },
-          { name: 'Era: ', value: "`" + list[num].era + "`" , inline: true},
-          { name: 'Version: ', value: "`" + list[num].version + "`" , inline: true},    
+        { name: 'Quality: ', value: "`" + list[num].quality + "`", inline: true },
+        { name: 'Era: ', value: "`" + list[num].era + "`", inline: true },
+        { name: 'Version: ', value: "`" + list[num].version + "`", inline: true },
       )
 
 
-    
+
       .setImage(list[num].link)
-      .setColor("#F7CAC9")
+      .setColor(embedColor)
       .setTimestamp()
-	    .setFooter({ text: 'https://vernonbot.xyz', iconURL: client.user.avatarURL(), url: list[num].link });
+      .setFooter({ text: 'https://vernonbot.xyz', iconURL: client.user.avatarURL(), url: list[num].link });
 
 
 
-      message.channel.send({embeds: [commonEmbed]}).then(async embedMessage => {
-        await embedMessage.react('💖');
-        await embedMessage.react('🗑');
+    message.channel.send({ embeds: [commonEmbed] }).then(async embedMessage => {
+      await embedMessage.react('💖');
+      await embedMessage.react('🗑');
     });
 
 
-    
+
 
   },
 }
