@@ -39,7 +39,7 @@ let v_list = [
         id: pad(count()) 
     },
     { 
-        link: "http://vernonbot.xyz/vernon-img/1.jpeg", 
+        link: "https://vernonbot.xyz/vernon-img/1.jpeg", 
         thumb: "https://vernonbot.xyz/vernon-img/thumbnail/ainochikara.jpeg", 
         version: "Weverse Preorder", 
         worth: 250, 
@@ -50,7 +50,7 @@ let v_list = [
         id: pad(count()) 
     },
     {   
-        link: "http://vernonbot.xyz/vernon-img/2.jpeg", 
+        link: "https://vernonbot.xyz/vernon-img/2.jpeg", 
         thumb: "https://vernonbot.xyz/vernon-img/thumbnail/ainochikara.jpeg", 
         version: "Christmas", 
         worth: 500, 
@@ -61,7 +61,7 @@ let v_list = [
         id: pad(count()) 
     },
     {
-        link: "http://vernonbot.xyz/vernon-img/3.jpeg",
+        link: "https://vernonbot.xyz/vernon-img/3.jpeg",
         thumb: "https://vernonbot.xyz/vernon-img/thumbnail/ainochikara.jpeg",
         version: "Universal",
         worth: 250,
@@ -73,7 +73,7 @@ let v_list = [
 
     },
     {
-        link: "http://vernonbot.xyz/vernon-img/4.jpeg",
+        link: "https://vernonbot.xyz/vernon-img/4.jpeg",
         thumb: "https://vernonbot.xyz/vernon-img/thumbnail/alone.jpg",
         version: "Alone 01",
         worth: 250,
@@ -85,7 +85,7 @@ let v_list = [
 
     },
     {
-        link: "http://vernonbot.xyz/vernon-img/5.jpeg",
+        link: "https://vernonbot.xyz/vernon-img/5.jpeg",
         thumb: "https://vernonbot.xyz/vernon-img/thumbnail/alone.jpg",
         version: "All 03",
         worth: 250,
@@ -97,7 +97,7 @@ let v_list = [
 
     },
     {
-        link: "http://vernonbot.xyz/vernon-img/6.jpeg",
+        link: "https://vernonbot.xyz/vernon-img/6.jpeg",
         thumb: "https://vernonbot.xyz/vernon-img/thumbnail/alone.jpg",
         version: "All 13",
         worth: 250,
@@ -109,7 +109,7 @@ let v_list = [
 
     },
     {
-        link: "http://vernonbot.xyz/vernon-img/7.jpeg",
+        link: "https://vernonbot.xyz/vernon-img/7.jpeg",
         thumb: "https://vernonbot.xyz/vernon-img/thumbnail/anode.jpeg",
         version: "Truth - White 01",
         worth: 100,
@@ -121,7 +121,7 @@ let v_list = [
 
     },
     {
-        link: "http://vernonbot.xyz/vernon-img/8.jpeg",
+        link: "https://vernonbot.xyz/vernon-img/8.jpeg",
         thumb: "https://vernonbot.xyz/vernon-img/thumbnail/anode.jpeg",
         version: "Hope - White 01",
         worth: 100,
@@ -133,7 +133,7 @@ let v_list = [
 
     },
     {
-        link: "http://vernonbot.xyz/vernon-img/9.jpeg",
+        link: "https://vernonbot.xyz/vernon-img/9.jpeg",
         thumb: "https://vernonbot.xyz/vernon-img/thumbnail/anode.jpeg",
         version: "Begin - Color 01",
         worth: 100,
@@ -145,7 +145,7 @@ let v_list = [
 
     },
     {
-        link: "http://vernonbot.xyz/vernon-img/10.jpeg",
+        link: "https://vernonbot.xyz/vernon-img/10.jpeg",
         thumb: "https://vernonbot.xyz/vernon-img/thumbnail/anode.jpeg",
         version: "The Poet - White 01",
         worth: 100,
@@ -157,7 +157,7 @@ let v_list = [
 
     },
     {
-        link: "http://vernonbot.xyz/vernon-img/11.jpeg",
+        link: "https://vernonbot.xyz/vernon-img/11.jpeg",
         thumb: "https://vernonbot.xyz/vernon-img/thumbnail/anode.jpeg",
         version: "Truth - Color 01",
         worth: 100,
@@ -169,7 +169,7 @@ let v_list = [
 
     },
     {
-        link: "http://vernonbot.xyz/vernon-img/12.jpeg",
+        link: "https://vernonbot.xyz/vernon-img/12.jpeg",
         thumb: "https://vernonbot.xyz/vernon-img/thumbnail/anode.jpeg",
         version: "Real - Color 01",
         worth: 100,
@@ -181,7 +181,7 @@ let v_list = [
 
     },
     {
-        link: "http://vernonbot.xyz/vernon-img/13.jpeg",
+        link: "https://vernonbot.xyz/vernon-img/13.jpeg",
         thumb: "https://vernonbot.xyz/vernon-img/thumbnail/anode.jpeg",
         version: "Begin - White 01",
         worth: 100,
@@ -193,7 +193,7 @@ let v_list = [
 
     },
     {
-        link: "http://vernonbot.xyz/vernon-img/14.jpeg",
+        link: "https://vernonbot.xyz/vernon-img/14.jpeg",
         thumb: "https://vernonbot.xyz/vernon-img/thumbnail/anode.jpeg",
         version: "The Poet - White 02",
         worth: 100,
@@ -205,7 +205,7 @@ let v_list = [
 
     },
     {
-        link: "http://vernonbot.xyz/vernon-img/15.jpeg",
+        link: "https://vernonbot.xyz/vernon-img/15.jpeg",
         thumb: "https://vernonbot.xyz/vernon-img/thumbnail/anode.jpeg",
         version: "The Poet - Color 01",
         worth: 100,
@@ -217,7 +217,7 @@ let v_list = [
 
     },
     {
-        link: "http://vernonbot.xyz/vernon-img/16.jpeg",
+        link: "https://vernonbot.xyz/vernon-img/16.jpeg",
         thumb: "https://vernonbot.xyz/vernon-img/thumbnail/anode.jpeg",
         version: "Real - White 01",
         worth: 100,
@@ -229,7 +229,7 @@ let v_list = [
 
     },
     {
-        link: "http://vernonbot.xyz/vernon-img/17.jpeg",
+        link: "https://vernonbot.xyz/vernon-img/17.jpeg",
         thumb: "https://vernonbot.xyz/vernon-img/thumbnail/anode.jpeg",
         version: "Truth - Color 02",
         worth: 100,
@@ -241,7 +241,7 @@ let v_list = [
 
     },
     {
-        link: "http://vernonbot.xyz/vernon-img/18.jpeg",
+        link: "https://vernonbot.xyz/vernon-img/18.jpeg",
         thumb: "https://vernonbot.xyz/vernon-img/thumbnail/anode.jpeg",
         version: "Hope - White 02",
         worth: 100,
