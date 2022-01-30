@@ -16,15 +16,6 @@ function pad(n){
     return n;
 }
     
-let collection = [
-    {
-        name: "24H",
-        amount: 3,
-        link: "",
-        thumb: "",
-        worth: "",
-    }
-]
 
 let v_list = [
     { 
@@ -260,7 +251,7 @@ let v_list = [
         era: "Attacca",
         quality: "Common",
         title: "Vernon",
-        collection: 1,
+        collection: 23,
         id: pad(count())
 
     },
@@ -272,7 +263,7 @@ let v_list = [
         era: "Attacca",
         quality: "Common",
         title: "Vernon",
-        collection: 1,
+        collection: 23,
         id: pad(count())
 
     },
@@ -284,10 +275,250 @@ let v_list = [
         era: "Attacca",
         quality: "Common",
         title: "Vernon",
-        collection: 1,
+        collection: 23,
         id: pad(count())
 
     },
+    {
+        link: "https://vernonbot.xyz/vernon-img/22.jpeg",
+        thumb: "https://vernonbot.xyz/vernon-img/thumbnail/attacca.jpeg",
+        version: "Beside",
+        worth: 100,
+        era: "Attacca",
+        quality: "Common",
+        title: "Vernon",
+        collection: 23,
+        id: pad(count())
+
+    },
+    {
+        link: "https://vernonbot.xyz/vernon-img/23.jpeg",
+        thumb: "https://vernonbot.xyz/vernon-img/thumbnail/attacca.jpeg",
+        version: "Yizhiyu A",
+        worth: 500,
+        era: "Attacca",
+        quality: "Epic",
+        title: "Vernon",
+        collection: 23,
+        id: pad(count())
+
+    },
+    {
+        link: "https://vernonbot.xyz/vernon-img/24.jpeg",
+        thumb: "https://vernonbot.xyz/vernon-img/thumbnail/attacca.jpeg",
+        version: "Yizhiyu B",
+        worth: 500,
+        era: "Attacca",
+        quality: "Epic",
+        title: "Vernon",
+        collection: 23,
+        id: pad(count())
+
+    },
+    {
+        link: "https://vernonbot.xyz/vernon-img/25.jpeg",
+        thumb: "https://vernonbot.xyz/vernon-img/thumbnail/attacca.jpeg",
+        version: "Op 3",
+        worth: 100,
+        era: "Attacca",
+        quality: "Common",
+        title: "Vernon",
+        collection: 23,
+        id: pad(count())
+
+    },
+    {
+        link: "https://vernonbot.xyz/vernon-img/26.jpeg",
+        thumb: "https://vernonbot.xyz/vernon-img/thumbnail/attacca.jpeg",
+        version: "Op 3",
+        worth: 100,
+        era: "Attacca",
+        quality: "Common",
+        title: "Vernon",
+        collection: 23,
+        id: pad(count())
+
+    },
+    {
+        link: "https://vernonbot.xyz/vernon-img/27.jpeg",
+        thumb: "https://vernonbot.xyz/vernon-img/thumbnail/attacca.jpeg",
+        version: "Carat 02",
+        worth: 250,
+        era: "Attacca",
+        quality: "Rare",
+        title: "Vernon",
+        collection: 23,
+        id: pad(count())
+
+    },
+    {
+        link: "https://vernonbot.xyz/vernon-img/28.jpeg",
+        thumb: "https://vernonbot.xyz/vernon-img/thumbnail/attacca.jpeg",
+        version: "Carat 03",
+        worth: 250,
+        era: "Attacca",
+        quality: "Rare",
+        title: "Vernon",
+        collection: 23,
+        id: pad(count())
+
+    },
+    {
+        link: "https://vernonbot.xyz/vernon-img/29.jpeg",
+        thumb: "https://vernonbot.xyz/vernon-img/thumbnail/attacca.jpeg",
+        version: "Carat 04",
+        worth: 250,
+        era: "Attacca",
+        quality: "Rare",
+        title: "Vernon",
+        collection: 23,
+        id: pad(count())
+
+    },
+    {
+        link: "https://vernonbot.xyz/vernon-img/30.jpeg",
+        thumb: "https://vernonbot.xyz/vernon-img/thumbnail/attacca.jpeg",
+        version: "Carat 01",
+        worth: 250,
+        era: "Attacca",
+        quality: "Rare",
+        title: "Vernon",
+        collection: 23,
+        id: pad(count())
+
+    },
+    {
+        link: "https://vernonbot.xyz/vernon-img/31.jpeg",
+        thumb: "https://vernonbot.xyz/vernon-img/thumbnail/attacca.jpeg",
+        version: "Carat Photo 01",
+        worth: 500,
+        era: "Attacca",
+        quality: "Epic",
+        title: "Vernon",
+        collection: 23,
+        id: pad(count())
+
+    },
+    {
+        link: "https://vernonbot.xyz/vernon-img/32.jpeg",
+        thumb: "https://vernonbot.xyz/vernon-img/thumbnail/attacca.jpeg",
+        version: "Carat Photo 02",
+        worth: 500,
+        era: "Attacca",
+        quality: "Epic",
+        title: "Vernon",
+        collection: 23,
+        id: pad(count())
+
+    },
+    {
+        link: "https://vernonbot.xyz/vernon-img/33.jpeg",
+        thumb: "https://vernonbot.xyz/vernon-img/thumbnail/attacca.jpeg",
+        version: "Carat Photo 03",
+        worth: 500,
+        era: "Attacca",
+        quality: "Epic",
+        title: "Vernon",
+        collection: 23,
+        id: pad(count())
+
+    },
+    {
+        link: "https://vernonbot.xyz/vernon-img/34.jpeg",
+        thumb: "https://vernonbot.xyz/vernon-img/thumbnail/attacca.jpeg",
+        version: "Carat Photo 05",
+        worth: 500,
+        era: "Attacca",
+        quality: "Epic",
+        title: "Vernon",
+        collection: 23,
+        id: pad(count())
+
+    },
+    {
+        link: "https://vernonbot.xyz/vernon-img/35.jpeg",
+        thumb: "https://vernonbot.xyz/vernon-img/thumbnail/attacca.jpeg",
+        version: "Carat Pohoto 06",
+        worth: 500,
+        era: "Attacca",
+        quality: "Epic",
+        title: "Vernon",
+        collection: 23,
+        id: pad(count())
+
+    },
+    {
+        link: "https://vernonbot.xyz/vernon-img/36.jpeg",
+        thumb: "https://vernonbot.xyz/vernon-img/thumbnail/attacca.jpeg",
+        version: "Carat Pohoto 07",
+        worth: 500,
+        era: "Attacca",
+        quality: "Epic",
+        title: "Vernon",
+        collection: 23,
+        id: pad(count())
+
+    },
+    {
+        link: "https://vernonbot.xyz/vernon-img/37.jpeg",
+        thumb: "https://vernonbot.xyz/vernon-img/thumbnail/attacca.jpeg",
+        version: "Op 1 - 01",
+        worth: 100,
+        era: "Attacca",
+        quality: "Common",
+        title: "Vernon",
+        collection: 23,
+        id: pad(count())
+
+    },
+    {
+        link: "https://vernonbot.xyz/vernon-img/38.jpeg",
+        thumb: "https://vernonbot.xyz/vernon-img/thumbnail/attacca.jpeg",
+        version: "Op 1 - 02",
+        worth: 100,
+        era: "Attacca",
+        quality: "Common",
+        title: "Vernon",
+        collection: 23,
+        id: pad(count())
+    },
+    {
+        link: "https://vernonbot.xyz/vernon-img/39.jpeg",
+        thumb: "https://vernonbot.xyz/vernon-img/thumbnail/attacca.jpeg",
+        version: "Op 2 - 01",
+        worth: 100,
+        era: "Attacca",
+        quality: "Common",
+        title: "Vernon",
+        collection: 23,
+        id: pad(count())
+
+    },
+    {
+        link: "https://vernonbot.xyz/vernon-img/40.jpeg",
+        thumb: "https://vernonbot.xyz/vernon-img/thumbnail/attacca.jpeg",
+        version: "Op 2 - 02",
+        worth: 100,
+        era: "Attacca",
+        quality: "Common",
+        title: "Vernon",
+        collection: 23,
+        id: pad(count())
+
+    },
+    {
+        link: "https://vernonbot.xyz/vernon-img/39.jpeg",
+        thumb: "https://vernonbot.xyz/vernon-img/thumbnail/attacca.jpeg",
+        version: "Op 2 - 01",
+        worth: 100,
+        era: "Attacca",
+        quality: "Common",
+        title: "Vernon",
+        collection: 23,
+        id: pad(count())
+
+    },
+
 ];
 
 exports.v_list = v_list;
