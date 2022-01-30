@@ -34,7 +34,7 @@ let v_list = [
         worth: 500, 
         era: "24H", 
         quality: "Epic", 
-        title: `[⭐️⭐️⭐️] 24H Carat Vernon`, 
+        title: `Vernon`, 
         collection: 1,
         id: pad(count()) 
     },
@@ -45,7 +45,7 @@ let v_list = [
         worth: 250, 
         era: "Ainochikara", 
         quality: "Rare", 
-        title: `[⭐️⭐️] Ainochikara Weverse Vernon`, 
+        title: `Vernon`, 
         collection: 3,
         id: pad(count()) 
     },
@@ -56,7 +56,7 @@ let v_list = [
         worth: 500, 
         era: "Ainochikara", 
         quality: "Epic", 
-        title: `[⭐️⭐️⭐️] Ainochikara Christmas Vernon`, 
+        title: `Vernon`, 
         collection: 3,
         id: pad(count()) 
     },
@@ -67,7 +67,7 @@ let v_list = [
         worth: 250,
         era: "Ainochikara",
         quality: "Rare",
-        title: "[⭐️⭐️] Ainochikara Universal Vernon",
+        title: "Vernon",
         collection: 3,
         id: pad(count())
 
@@ -79,7 +79,7 @@ let v_list = [
         worth: 250,
         era: "AL1",
         quality: "Rare",
-        title: "[⭐️⭐️] AL1 Alone 01 Vernon",
+        title: "Vernon",
         collection: 3,
         id: pad(count())
 
@@ -91,7 +91,7 @@ let v_list = [
         worth: 250,
         era: "AL1",
         quality: "Rare",
-        title: "[⭐️⭐️] AL1 All 03 Vernon",
+        title: "Vernon",
         collection: 3,
         id: pad(count())
 
@@ -103,7 +103,7 @@ let v_list = [
         worth: 250,
         era: "AL1",
         quality: "Rare",
-        title: "[⭐️⭐️] AL1 All 13 Vernon",
+        title: "Vernon",
         collection: 3,
         id: pad(count())
 
@@ -115,7 +115,7 @@ let v_list = [
         worth: 100,
         era: "An Ode",
         quality: "Common",
-        title: "[⭐️] An Ode Truth - White 01 Vernon",
+        title: "Vernon",
         collection: 2,
         id: pad(count())
 
@@ -127,7 +127,7 @@ let v_list = [
         worth: 100,
         era: "An Ode",
         quality: "Common",
-        title: "[⭐️] An Ode Hope - White 01 Vernon",
+        title: "Vernon",
         collection: 2,
         id: pad(count())
 
@@ -139,7 +139,19 @@ let v_list = [
         worth: 100,
         era: "An Ode",
         quality: "Common",
-        title: "[⭐️] An Ode Begin - Color 01 Vernon",
+        title: "Vernon",
+        collection: 2,
+        id: pad(count())
+
+    },
+    {
+        link: "http://vernonbot.xyz/vernon-img/10.jpeg",
+        thumb: "https://vernonbot.xyz/vernon-img/thumbnail/anode.jpeg",
+        version: "The Poet - White 01",
+        worth: 100,
+        era: "An Ode",
+        quality: "Common",
+        title: "Vernon",
         collection: 2,
         id: pad(count())
 
