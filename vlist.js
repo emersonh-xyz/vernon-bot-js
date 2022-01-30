@@ -438,7 +438,7 @@ let v_list = [
     {
         link: "https://vernonbot.xyz/vernon-img/35.jpeg",
         thumb: "https://vernonbot.xyz/vernon-img/thumbnail/attacca.jpeg",
-        version: "Carat Pohoto 06",
+        version: "Carat Photo 06",
         worth: 500,
         era: "Attacca",
         quality: "Epic",
@@ -450,7 +450,7 @@ let v_list = [
     {
         link: "https://vernonbot.xyz/vernon-img/36.jpeg",
         thumb: "https://vernonbot.xyz/vernon-img/thumbnail/attacca.jpeg",
-        version: "Carat Pohoto 07",
+        version: "Carat Photo 07",
         worth: 500,
         era: "Attacca",
         quality: "Epic",
