@@ -46,7 +46,7 @@ module.exports = {
 
       .addFields(
         { name: "ID: ", value: "`" + list[0].id + "`" , inline: true },
-        { name: "Worth: ", value: "` " + list[0].worth + "🥕`", inline: false }
+        { name: "Worth: ", value: "`" + list[0].worth + "🥕`", inline: false }
       
 
       )
