@@ -32,10 +32,9 @@ module.exports = {
   slash: false, // Create both a slash and legacy command
   testOnly: false, // Only register a slash command for the testing guilds
 
-  callback: ({ message, text, }) => {
+  callback: ({ message, text, client, }) => {
 
     const user = message.author
-    const link = "https://lh6.googleusercontent.com/WvI2UHXrbMDapxo2FexbzqBBF30RcGg7PxhU-BRo7Sl7S4D7Kze6fk0ni6uuhKBMURaWWbpUUyeTZXPN7A_58Rne0kBhWPRypkirFn3MrkldDS_ZLvnw_INVhsbd-Ba1Sm5faZ805g"
 
 
     let commonEmbed = new MessageEmbed()
@@ -61,7 +60,7 @@ module.exports = {
       .setImage(list[0].link)
       .setColor("RED")
       .setTimestamp()
-	    .setFooter({ text: 'Unboxed with !vernon', iconURL: message.author.avatarURL(), url: list[0].link });
+	    .setFooter({ text: '', iconURL: client.user.avatarURL(), url: list[0].link });
 
 
 
