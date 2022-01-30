@@ -1,28 +1,5 @@
 const { MessageEmbed } = require('discord.js');
-
-let idCounter = 0;
-
-
-var num = 1;
-
-function pad(n){
-    var string = "" + num;
-    var pad = "0000";
-    n = pad.substring(0, pad.length - string.length) + string;
-    num++;
-    return n;
-}
-    
-let list = [
-    { link: "https://vernonbot.xyz/vernon-img/0.jpeg", version: "Carat", worth: 200, era: "24h", quality: "Epic", title: `[⭐️⭐️⭐️] 24h Carat Vernon`, id: pad(1) },
-    { link: "http://vernonbot.xyz/vernon-img/0.jpeg", version: "Carat", worth: 200, era: "24h", quality: "Epic", title: `[⭐️⭐️⭐️] 24h Carat Vernon`, id: pad(2) },
-    
-    
-];
-
-console.log(list[0].id)
-console.log(list[1].id)
-
+const { v_list } =  require("../vlist.js");
 
 
 module.exports = {
@@ -35,11 +12,14 @@ module.exports = {
   callback: ({ message, text, client, }) => {
 
     const user = message.author
+    const list = v_list
+    
 
 
     let commonEmbed = new MessageEmbed()
       .setAuthor({ name: `${user.username} Just unboxed: `, iconURL: user.avatarURL(), url: list[0].link })
       .setTitle(` **${list[0].title}** `)
+      .setThumbnail(list[0].thumb)
       .setURL(list[0].link)
 
 
@@ -58,9 +38,9 @@ module.exports = {
 
     
       .setImage(list[0].link)
-      .setColor("RED")
+      .setColor("#F7CAC9")
       .setTimestamp()
-	    .setFooter({ text: '', iconURL: client.user.avatarURL(), url: list[0].link });
+	    .setFooter({ text: 'https://vernonbot.xyz', iconURL: client.user.avatarURL(), url: list[0].link });
 
 
 

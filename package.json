@@ -4,6 +4,7 @@
     "discord-api-types": "^0.26.1",
     "discord.js": "^13.6.0",
     "dotenv": "^14.2.0",
+    "underscore": "^1.13.2",
     "wokcommands": "^1.5.3"
   }
 }
