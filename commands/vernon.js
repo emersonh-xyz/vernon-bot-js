@@ -16,7 +16,11 @@ module.exports = {
     var commonEmbed = new MessageEmbed()
       .setAuthor({ name: "Era: attacca", url: link })
       .setDescription("╰☆ Rare Quality")
-      .addField("test", "test")
+      .addFields(
+        { name: 'Era', value: "attacca" },
+        { name: 'Verion', value: 'carat 03' },
+        { name: 'Quality', value: 'Rare', inline: true },
+      )
       .setImage(link)
       .setColor("WHITE")
       .setFooter(`Requested by ${user.tag}`)
