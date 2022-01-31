@@ -1,6 +1,7 @@
 const DiscordJS = require('discord.js')
 const WOKCommands = require('wokcommands')
 const path = require('path')
+const mongoose = require("mongoose")
 
 require("dotenv").config()
 
@@ -18,13 +19,14 @@ const client = new DiscordJS.Client({
 
 
 
-client.on('ready', () => {
+client.on('ready', async() => {
   new WOKCommands(client, {
-    // The name of the local folder for your command files
     commandsDir: path.join(__dirname, 'commands'),
     featuresDir: path.join(__dirname, "features"),
     testServers: ["770727600322248726", "752704745700982876" ],
-    botOwners: ["117506271715917829", "192365711954411520"]
+    botOwners: ["117506271715917829", "192365711954411520"],
+    mongoUri: process.env.MONGO_URI
+
   })
 
   client.user.setActivity(`!vernon | ${client.guilds.cache.size} servers`,
