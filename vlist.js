@@ -543,7 +543,7 @@ let v_list = [
 
     },
     {
-        link: "https://vernonbot.xyz/vernon-img/43.jpeg",
+        link: "https://vernonbot.xyz/vernon-img/43.png",
         thumb: "https://vernonbot.xyz/vernon-img/thumbnail/caratmembership.jpeg",
         version: "2021 - ID",
         worth: 100,
