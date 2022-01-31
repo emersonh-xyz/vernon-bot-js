@@ -472,7 +472,7 @@ let v_list = [
     },
     {
         link: "https://vernonbot.xyz/vernon-img/38.jpeg",
-        thumb: "https://vernonbot.xyz/vernon-img/thumbnail/attacca.jpeg",
+        thumb: "https://vernonbot.xyz/vernon-img/thumbnail/attacca.jpg",
         version: "Op 2 - 01",
         worth: 100,
         era: "🗡 Attacca",
@@ -493,6 +493,221 @@ let v_list = [
         collection: 23,
         id: pad(count())
 
+    },
+    {
+        link: "https://vernonbot.xyz/vernon-img/40.jpeg",
+        thumb: "https://vernonbot.xyz/vernon-img/thumbnail/boysbe.png",
+        version: "Seek",
+        worth: 500,
+        era: "📷 Boys Be",
+        quality: "Epic",
+        title: "Vernon",
+        collection: 2,
+        id: pad(count())
+
+    },
+    {
+        link: "https://vernonbot.xyz/vernon-img/41.jpeg",
+        thumb: "https://vernonbot.xyz/vernon-img/thumbnail/boysbe.png",
+        version: "Hide",
+        worth: 500,
+        era: "📷 Boys Be",
+        quality: "Epic",
+        title: "Vernon",
+        collection: 2,
+        id: pad(count())
+
+    },
+    {
+        link: "https://vernonbot.xyz/vernon-img/42.jpeg",
+        thumb: "https://vernonbot.xyz/vernon-img/thumbnail/caratmembership.jpeg",
+        version: "2022",
+        worth: 250,
+        era: "💎 Carat Membership",
+        quality: "Rare",
+        title: "Vernon",
+        collection: 8,
+        id: pad(count())
+
+    },
+    {
+        link: "https://vernonbot.xyz/vernon-img/42.jpeg",
+        thumb: "https://vernonbot.xyz/vernon-img/thumbnail/caratmembership.jpeg",
+        version: "2022",
+        worth: 250,
+        era: "💎 Carat Membership",
+        quality: "Rare",
+        title: "Vernon",
+        collection: 8,
+        id: pad(count())
+
+    },
+    {
+        link: "https://vernonbot.xyz/vernon-img/43.jpeg",
+        thumb: "https://vernonbot.xyz/vernon-img/thumbnail/caratmembership.jpeg",
+        version: "2021 - ID",
+        worth: 100,
+        era: "💎 Carat Membership",
+        quality: "Common",
+        title: "Vernon",
+        collection: 8,
+        id: pad(count())
+
+    },
+    {
+        link: "https://vernonbot.xyz/vernon-img/44.jpeg",
+        thumb: "https://vernonbot.xyz/vernon-img/thumbnail/caratmembership.jpeg",
+        version: "2021 - ID",
+        worth: 250,
+        era: "💎 Carat Membership",
+        quality: "Rare",
+        title: "Vernon",
+        collection: 8,
+        id: pad(count())
+
+    },
+    {
+        link: "https://vernonbot.xyz/vernon-img/45.jpeg",
+        thumb: "https://vernonbot.xyz/vernon-img/thumbnail/caratmembership.jpeg",
+        version: "2017 - 01",
+        worth: 100,
+        era: "💎 Carat Membership",
+        quality: "Common",
+        title: "Vernon",
+        collection: 8,
+        id: pad(count())
+
+    },
+    {
+        link: "https://vernonbot.xyz/vernon-img/46.jpeg",
+        thumb: "https://vernonbot.xyz/vernon-img/thumbnail/caratmembership.jpeg",
+        version: "2017 - 02",
+        worth: 100,
+        era: "💎 Carat Membership",
+        quality: "Common",
+        title: "Vernon",
+        collection: 8,
+        id: pad(count())
+
+    },
+    {
+        link: "https://vernonbot.xyz/vernon-img/47.jpeg",
+        thumb: "https://vernonbot.xyz/vernon-img/thumbnail/caratmembership.jpeg",
+        version: "2017 - 03",
+        worth: 100,
+        era: "💎 Carat Membership",
+        quality: "Common",
+        title: "Vernon",
+        collection: 8,
+        id: pad(count())
+
+    },
+    {
+        link: "https://vernonbot.xyz/vernon-img/48.jpeg",
+        thumb: "https://vernonbot.xyz/vernon-img/thumbnail/caratmembership.jpeg",
+        version: "2017 - 04",
+        worth: 100,
+        era: "💎 Carat Membership",
+        quality: "Common",
+        title: "Vernon",
+        collection: 8,
+        id: pad(count())
+
+    },
+    {
+        link: "https://vernonbot.xyz/vernon-img/49.jpeg",
+        thumb: "https://vernonbot.xyz/vernon-img/thumbnail/caratland2020.jpeg",
+        version: "2020 - 01",
+        worth: 100,
+        era: "💎 Caratland",
+        quality: "Common",
+        title: "Vernon",
+        collection: l,
+        id: pad(count())
+
+    },
+    {
+        link: "https://vernonbot.xyz/vernon-img/50.jpeg",
+        thumb: "https://vernonbot.xyz/vernon-img/thumbnail/caratland2020.jpeg",
+        version: "2020 - 02",
+        worth: 100,
+        era: "💎 Caratland",
+        quality: "Common",
+        title: "Vernon",
+        collection: l,
+        id: pad(count())
+
+    },
+    {
+        link: "https://vernonbot.xyz/vernon-img/51.jpeg",
+        thumb: "https://vernonbot.xyz/vernon-img/thumbnail/caratland2020.jpeg",
+        version: "2020 - 03",
+        worth: 100,
+        era: "💎 Caratland",
+        quality: "Common",
+        title: "Vernon",
+        collection: l,
+        id: pad(count())
+
+    },
+    {
+        link: "https://vernonbot.xyz/vernon-img/52.jpeg",
+        thumb: "https://vernonbot.xyz/vernon-img/thumbnail/caratland2020.jpeg",
+        version: "2020 - 04",
+        worth: 100,
+        era: "💎 Caratland",
+        quality: "Common",
+        title: "Vernon",
+        collection: l,
+        id: pad(count())
+
+    },
+    {
+        link: "https://vernonbot.xyz/vernon-img/53.jpeg",
+        thumb: "https://vernonbot.xyz/vernon-img/thumbnail/caratland2020.jpeg",
+        version: "Polaroid - 01",
+        worth: 100,
+        era: "💎 Caratland",
+        quality: "Common",
+        title: "Vernon",
+        collection: l,
+        id: pad(count())
+
+    },
+    {
+        link: "https://vernonbot.xyz/vernon-img/54.jpeg",
+        thumb: "https://vernonbot.xyz/vernon-img/thumbnail/caratland2020.jpeg",
+        version: "Polaroid - 02",
+        worth: 100,
+        era: "💎 Caratland",
+        quality: "Common",
+        title: "Vernon",
+        collection: l,
+        id: pad(count())
+
+    },
+    {
+        link: "https://vernonbot.xyz/vernon-img/55.jpeg",
+        thumb: "https://vernonbot.xyz/vernon-img/thumbnail/caratland2020.jpeg",
+        version: "2020 - 05",
+        worth: 100,
+        era: "💎 Caratland",
+        quality: "Common",
+        title: "Vernon",
+        collection: l,
+        id: pad(count())
+
+    },
+    {
+        link: "https://vernonbot.xyz/vernon-img/56.jpeg",
+        thumb: "https://vernonbot.xyz/vernon-img/thumbnail/caratland2020.jpeg",
+        version: "2020 - 06",
+        worth: 100,
+        era: "💎 Caratland",
+        quality: "Common",
+        title: "Vernon",
+        collection: l,
+        id: pad(count())
     },
 
 ];
