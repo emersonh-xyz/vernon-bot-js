@@ -27,13 +27,13 @@ module.exports = {
 
     if (list[num].quality === "Rare") {
       embedColor = rareColor
-      rarity = "[⭐️⭐️]"
+      rarity = "`⭐️⭐️`"
     } else if (list[num].quality === "Epic") {
       embedColor = epicColor
-      rarity = "[⭐️⭐️⭐️]"
+      rarity = "`⭐️⭐️⭐️`"
     } else if (list[num].quality === "Common") {
       embedColor = commonColor
-      rarity = "[⭐️]"
+      rarity = "`⭐️`"
     } else
     {
       embedColor = "WHITE"
@@ -47,8 +47,8 @@ module.exports = {
 
 
     let commonEmbed = new MessageEmbed()
-      .setAuthor({ name: `${user.username} Just unboxed: `, iconURL: user.avatarURL(), url: list[num].link })
-      .setTitle(rarity + " *" + list[num].era + "* " + list[num].version + "" )
+      .setAuthor({ name: `🎁 ${user.username} Just opened a card!`, iconURL: user.avatarURL(), url: list[num].link })
+      .setTitle(rarity + " [" + list[num].era + "] " + list[num].version + "" )
       .setThumbnail(list[num].thumb)
       
       .setDescription(`**╰☆** You own **0**/${list[num].collection} from this set`)
