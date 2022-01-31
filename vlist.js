@@ -622,7 +622,7 @@ let v_list = [
         era: "💎 Caratland",
         quality: "Common",
         title: "Vernon",
-        collection: l,
+        collection: 8,
         id: pad(count())
 
     },
@@ -634,7 +634,7 @@ let v_list = [
         era: "💎 Caratland",
         quality: "Common",
         title: "Vernon",
-        collection: l,
+        collection: 8,
         id: pad(count())
 
     },
@@ -646,7 +646,7 @@ let v_list = [
         era: "💎 Caratland",
         quality: "Common",
         title: "Vernon",
-        collection: l,
+        collection: 8,
         id: pad(count())
 
     },
@@ -658,7 +658,7 @@ let v_list = [
         era: "💎 Caratland",
         quality: "Common",
         title: "Vernon",
-        collection: l,
+        collection: 8,
         id: pad(count())
 
     },
@@ -670,7 +670,7 @@ let v_list = [
         era: "💎 Caratland",
         quality: "Common",
         title: "Vernon",
-        collection: l,
+        collection: 8,
         id: pad(count())
 
     },
@@ -682,7 +682,7 @@ let v_list = [
         era: "💎 Caratland",
         quality: "Common",
         title: "Vernon",
-        collection: l,
+        collection: 8,
         id: pad(count())
 
     },
@@ -694,7 +694,7 @@ let v_list = [
         era: "💎 Caratland",
         quality: "Common",
         title: "Vernon",
-        collection: l,
+        collection: 8,
         id: pad(count())
 
     },
@@ -706,7 +706,7 @@ let v_list = [
         era: "💎 Caratland",
         quality: "Common",
         title: "Vernon",
-        collection: l,
+        collection: 8,
         id: pad(count())
     },
 
