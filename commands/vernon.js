@@ -47,7 +47,7 @@ module.exports = {
 
 
     let commonEmbed = new MessageEmbed()
-      .setAuthor({ name: `🎁 ${user.username} Just opened a card!`, iconURL: user.avatarURL(), url: list[num].link })
+      .setAuthor({ name: `🎁 ${user.username} just opened a card!`, iconURL: user.avatarURL(), url: list[num].link })
       .setTitle(rarity + " [" + list[num].era + "] " + list[num].version + "" )
       .setThumbnail(list[num].thumb)
       
