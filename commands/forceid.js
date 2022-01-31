@@ -3,8 +3,8 @@ const { v_list } = require("../vlist.js");
 
 
 module.exports = {
-  category: 'Fun',
-  description: 'Replies with a picture of vernon', // Required for slash commands
+  category: 'Tool',
+  description: 'Forcing a card pull', // Required for slash commands
 
   slash: false, // Create both a slash and legacy command
   testOnly: false, // Only register a slash command for the testing guilds
