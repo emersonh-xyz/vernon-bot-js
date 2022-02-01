@@ -75,7 +75,7 @@ module.exports = {
 
 
 
-      message.channel.send({ embeds: [commonEmbed] }).then(async embedMessage => {
+      return message.channel.send({ embeds: [commonEmbed] }).then(async embedMessage => {
       await embedMessage.react('💖');
       await embedMessage.react('🗑');
     });
