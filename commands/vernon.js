@@ -25,13 +25,15 @@ module.exports = {
 
     let rarity = ""
 
-    if (list[num].quality === "Rare") {
+    let quality = list[num].quality
+
+    if (quality === "Rare") {
       embedColor = rareColor
       rarity = "`⭐️⭐️`"
-    } else if (list[num].quality === "Epic") {
+    } else if (quality === "Epic") {
       embedColor = epicColor
       rarity = "`⭐️⭐️⭐️`"
-    } else if (list[num].quality === "Common") {
+    } else if (quality === "Common") {
       embedColor = commonColor
       rarity = "`⭐️`"
     } else
