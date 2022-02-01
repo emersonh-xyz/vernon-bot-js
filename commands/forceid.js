@@ -6,8 +6,8 @@ module.exports = {
   category: 'Tool',
   description: 'Forcing a card pull', // Required for slash commands
 
-  slash: false, // Create both a slash and legacy command
-  testOnly: false, // Only register a slash command for the testing guilds
+  slash: "both", // Create both a slash and legacy command
+  testOnly: true, // Only register a slash command for the testing guilds
 
   expectedArgs: '<number1>',
   minArgs: 1,
@@ -95,7 +95,7 @@ module.exports = {
 
 
 
-    message.channel.send({ embeds: [commonEmbed] }).then(async embedMessage => {
+    return message.channel.send({ embeds: [commonEmbed] }).then(async embedMessage => {
       await embedMessage.react('💖');
       await embedMessage.react('🗑');
     });

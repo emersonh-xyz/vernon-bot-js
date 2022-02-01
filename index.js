@@ -25,12 +25,13 @@ client.on('ready', async() => {
     featuresDir: path.join(__dirname, "features"),
     testServers: ["770727600322248726", "752704745700982876" ],
     botOwners: ["117506271715917829", "192365711954411520"],
+    
 
   })
 
-  client.user.setActivity(`!vernon | ${client.guilds.cache.size} servers`,
+  client.user.setActivity(`💎 vernonbot.xyz | ${client.guilds.cache.size} servers`,
   { 
-    type: 'STREAMING',
+    type: 'PLAYING',
     url: "https://www.twitch.tv/omegattv_"
  });
 })
