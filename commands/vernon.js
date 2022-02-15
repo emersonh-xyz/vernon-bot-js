@@ -53,7 +53,7 @@ module.exports = {
       .setTitle(rarity + " " + list[num].era + " ")
       .setThumbnail(list[num].thumb)
       
-      .setDescription(`**╰** You own **0**/${list[num].collection} from this set`)
+      //.setDescription(`**╰** You own **0**/${list[num].collection} from this set`)
 
 
       .addFields(
@@ -71,7 +71,7 @@ module.exports = {
       .setImage(list[num].link)
       .setColor(embedColor)
       .setTimestamp()
-      .setFooter({ text: 'https://vernonbot.xyz', iconURL: client.user.avatarURL(), url: list[num].link });
+      .setFooter({ text: '**╰** You own **0**/${list[num].collection} from this set', iconURL: client.user.avatarURL(), url: list[num].link });
 
 
 
