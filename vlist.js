@@ -769,7 +769,7 @@ let v_list = [
         thumb: "https://vernonbot.xyz/vernon-img/thumbnail/goingmagazine.jpeg",
         version: "Seventeen",
         worth: 100,
-        era: "1️⃣7️⃣ Going Seventeen",
+        era: "𝟙𝟟 Going Seventeen",
         quality: "Rare",
         title: "Vernon",
         collection: 1,
