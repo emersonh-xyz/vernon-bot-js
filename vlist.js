@@ -709,6 +709,127 @@ let v_list = [
         collection: 8,
         id: pad(count())
     },
+    {
+        link: "https://vernonbot.xyz/vernon-img/57.jpeg",
+        thumb: "https://vernonbot.xyz/vernon-img/thumbnail/fallinflower.jpeg",
+        version: "Version C",
+        worth: 100,
+        era: "💐 Fallin Flower",
+        quality: "Rare",
+        title: "Vernon",
+        collection: 1,
+        id: pad(count())  
+    },
+    {
+        link: "https://vernonbot.xyz/vernon-img/58.jpeg",
+        thumb: "https://vernonbot.xyz/vernon-img/thumbnail/fallinflower.jpeg",
+        version: "Regular",
+        worth: 100,
+        era: "💐 Fallin Flower",
+        quality: "Rare",
+        title: "Vernon",
+        collection: 1,
+        id: pad(count())  
+    },
+    {
+        link: "https://vernonbot.xyz/vernon-img/59.jpeg",
+        thumb: "https://vernonbot.xyz/vernon-img/thumbnail/fallinflower.jpeg",
+        version: "Carat",
+        worth: 100,
+        era: "💐 Fallin Flower",
+        quality: "Epic",
+        title: "Vernon",
+        collection: 1,
+        id: pad(count())  
+    },
+    {
+        link: "https://vernonbot.xyz/vernon-img/60.jpeg",
+        thumb: "https://vernonbot.xyz/vernon-img/thumbnail/fallinflower.jpeg",
+        version: "Version A",
+        worth: 100,
+        era: "💐 Fallin Flower",
+        quality: "Epic",
+        title: "Vernon",
+        collection: 1,
+        id: pad(count())  
+    },
+    {
+        link: "https://vernonbot.xyz/vernon-img/61.jpeg",
+        thumb: "https://vernonbot.xyz/vernon-img/thumbnail/goingmagazine.jpeg",
+        version: "Version 1",
+        worth: 100,
+        era: "📖 Going Magazine",
+        quality: "Common",
+        title: "Vernon",
+        collection: 1,
+        id: pad(count())  
+    },
+    {
+        link: "https://vernonbot.xyz/vernon-img/62.jpeg",
+        thumb: "https://vernonbot.xyz/vernon-img/thumbnail/goingmagazine.jpeg",
+        version: "Seventeen",
+        worth: 100,
+        era: "1️⃣7️⃣ Going Seventeen",
+        quality: "Rare",
+        title: "Vernon",
+        collection: 1,
+        id: pad(count())  
+    },
+    {
+        link: "https://vernonbot.xyz/vernon-img/63.jpeg",
+        thumb: "https://vernonbot.xyz/vernon-img/thumbnail/happyending.jpg",
+        version: "Version A",
+        worth: 100,
+        era: "💙 Happy Ending",
+        quality: "Rare",
+        title: "Vernon",
+        collection: 1,
+        id: pad(count())  
+    },
+    {
+        link: "https://vernonbot.xyz/vernon-img/64.jpeg",
+        thumb: "https://vernonbot.xyz/vernon-img/thumbnail/happyending.jpg",
+        version: "Version B",
+        worth: 100,
+        era: "💙 Happy Ending",
+        quality: "Rare",
+        title: "Vernon",
+        collection: 1,
+        id: pad(count())  
+    },
+    {
+        link: "https://vernonbot.xyz/vernon-img/65.jpeg",
+        thumb: "https://vernonbot.xyz/vernon-img/thumbnail/happyending.jpg",
+        version: "Version C",
+        worth: 100,
+        era: "💙 Happy Ending",
+        quality: "Rare",
+        title: "Vernon",
+        collection: 1,
+        id: pad(count())  
+    },
+    {
+        link: "https://vernonbot.xyz/vernon-img/66.jpeg",
+        thumb: "https://vernonbot.xyz/vernon-img/thumbnail/happyending.jpg",
+        version: "Regular",
+        worth: 100,
+        era: "💙 Happy Ending",
+        quality: "Rare",
+        title: "Vernon",
+        collection: 1,
+        id: pad(count())  
+    },
+    {
+        link: "https://vernonbot.xyz/vernon-img/67.jpeg",
+        thumb: "https://vernonbot.xyz/vernon-img/thumbnail/happyending.jpg",
+        version: "Carat",
+        worth: 100,
+        era: "💙 Happy Ending",
+        quality: "Epic",
+        title: "Vernon",
+        collection: 1,
+        id: pad(count())  
+    },
 
 ];
 
