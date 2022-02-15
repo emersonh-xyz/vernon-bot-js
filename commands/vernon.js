@@ -60,7 +60,7 @@ module.exports = {
         { name: "ID: ", value: "`" + list[num].id + "`", inline: true },
         { name: "Title: ", value: "`" + list[num].title + "`", inline: true },
         { name: "Worth: ", value: "`🥕 " + list[num].worth + "`", inline: true },
-        { name: 'Quality: ', value: "`" + list[num].quality + "`", inline: true },
+        { name: 'Grade: ', value: "`" + list[num].quality + "`", inline: true },
         { name: 'Era: ', value: "`" + list[num].era + "`", inline: true },
         { name: 'Version: ', value: "`" + list[num].version + "`", inline: true },
 
