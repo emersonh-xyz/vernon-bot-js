@@ -50,16 +50,16 @@ module.exports = {
 
     let commonEmbed = new MessageEmbed()
       .setAuthor({ name: `🎁 ${user.username} just unboxed an album!`, iconURL: user.avatarURL(), url: list[num].link })
-      .setTitle(rarity + " " + list[num].era + " ")
+      .setTitle(rarity + " " + list[num].era + " " + list[num].title)
       .setThumbnail(list[num].thumb)
       
-      //.setDescription(`**╰** You own **0**/${list[num].collection} from this set`)
+     // .setDescription(`**╰** You own **0**/${list[num].collection} from this set`)
 
 
       .addFields(
         { name: "ID: ", value: "`" + list[num].id + "`", inline: true },
         { name: "Title: ", value: "`" + list[num].title + "`", inline: true },
-        { name: "Worth: ", value: "`" + list[num].worth + " 🥕`", inline: true },
+        { name: "Worth: ", value: "`🥕 " + list[num].worth + "`", inline: true },
         { name: 'Quality: ', value: "`" + list[num].quality + "`", inline: true },
         { name: 'Era: ', value: "`" + list[num].era + "`", inline: true },
         { name: 'Version: ', value: "`" + list[num].version + "`", inline: true },
@@ -71,7 +71,7 @@ module.exports = {
       .setImage(list[num].link)
       .setColor(embedColor)
       .setTimestamp()
-      .setFooter({ text: '**╰** You own **0**/${list[num].collection} from this set', iconURL: client.user.avatarURL(), url: list[num].link });
+      .setFooter({ text: 'https://vernonbot.xyz', iconURL: client.user.avatarURL(), url: list[num].link });
 
 
 
