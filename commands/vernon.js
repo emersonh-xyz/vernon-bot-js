@@ -53,7 +53,7 @@ module.exports = {
       .setTitle(rarity + " " + list[num].era + " ")
       .setThumbnail(list[num].thumb)
       
-      .setDescription(`**╰☆** You own **0**/${list[num].collection} from this set`)
+      .setDescription(`**╰** You own **0**/${list[num].collection} from this set`)
 
 
       .addFields(
