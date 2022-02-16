@@ -29,13 +29,13 @@ module.exports = {
 
     if (quality === "Rare") {
       embedColor = rareColor
-      rarity = "`⭐️⭐️`"
+      rarity = "`[⭐️⭐️]`"
     } else if (quality === "Epic") {
       embedColor = epicColor
-      rarity = "`⭐️⭐️⭐️`"
+      rarity = "`[⭐️⭐️⭐️]`"
     } else if (quality === "Common") {
       embedColor = commonColor
-      rarity = "`⭐️`"
+      rarity = "`[⭐️]`"
     } else
     {
       embedColor = "WHITE"
@@ -49,16 +49,16 @@ module.exports = {
 
 
     let commonEmbed = new MessageEmbed()
-      .setAuthor({ name: `🎁 ${user.username} just unboxed an album!`, iconURL: user.avatarURL(), url: list[num].link })
-      .setTitle(rarity + " " + list[num].era + " " + list[num].title)
+      .setAuthor({ name: `🎁 ${user.username} just unboxed an album card!`, iconURL: user.avatarURL(), url: list[num].link })
+      .setTitle(rarity + " " + list[num].era + " | " + list[num].version)
       .setThumbnail(list[num].thumb)
       
-      //.setDescription(`**╰** You own **0**/${list[num].collection} from this set`)
+      //.setDescription(`*v!sell to scrap for worth*`)
 
 
       .addFields(
         { name: "ID: ", value: "`" + list[num].id + "`", inline: true },
-        { name: "Title: ", value: "`" + list[num].title + "`", inline: true },
+        { name: "PC: ", value: "`" + list[num].title + "`", inline: true },
         { name: "Worth: ", value: "`🥕 " + list[num].worth + "`", inline: true },
         { name: 'Grade: ', value: "`" + list[num].quality + "`", inline: true },
         { name: 'Era: ', value: "`" + list[num].era + "`", inline: true },
